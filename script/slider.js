@@ -1,22 +1,26 @@
-function nextSlide() {
-    goToSlide(currentSlide+1);
-}
-function previousSlide() {
-    goToSlide(currentSlide-1);
-}
-function goToSlide(n) {
-    slides[currentSlide].className = 'slide';
-    currentSlide = (n+slides.length)%slides.length;
-    slides[currentSlide].className = 'slide showing';
+
+
+
+// let content=document.getElementById("first-button-content")
+// let show=document.getElementById("first-button")
+
+// // let body=document.body
+
+// document.addEventListener('click',(e)=>{
+//     const withinBoundaries=e.composedPath().includes(content);
+//     if(!withinBoundaries){
+//         content.style.display='none'
+//     }
+// })
+
+let content=document.getElementById("button-content")
+let show=document.getElementById("button")
+
+show.addEventListener("click",showClick);
+
+function showClick(){
+    content.classList.toggle('hidden')
 }
 
-var next = document.getElementById('next');
-var previous = document.getElementById('previous');
-next.onclick = function() {
-    pauseSlideshow();
-    nextSlide();
-};
-previous.onclick = function() {
-    pauseSlideshow();
-    previousSlide();
-};
+
+

@@ -204,6 +204,118 @@ body {
   filter: drop-shadow(5px 3px 5px rgba(0, 0, 0, 0.2));
 }
 
+.hidden {
+  display: none;
+}
+
+.first-button-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  max-width: 380px;
+  min-height: 160px;
+  margin-left: -63px;
+  margin-top: -46px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  background: #ffffff;
+  mix-blend-mode: normal;
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+.paw img {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 82px;
+}
+
+.first-button-content h1 {
+  position: relative;
+  margin-left: 42px;
+  margin-top: 2px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: #000000;
+}
+
+.first-button-content h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: #000000;
+}
+
+.dog-text {
+  position: absolute;
+  margin-top: -4px;
+  margin-left: 42px;
+}
+
+.cat-text {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 42px;
+}
+.other-animal {
+  position: relative;
+  margin-top: -11px;
+  margin-left: 42px;
+}
+
+.black-paw img {
+  position: relative;
+  margin-top: -194px;
+  margin-left: 259px;
+}
+
+.black-paw h1 {
+  position: relative;
+  margin-left: 212px;
+  margin-top: -82px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: #000000;
+}
+
+.dog-text-two {
+  position: relative;
+  margin-left: 212px;
+  margin-top: -52px;
+}
+
+.cat-text-two {
+  position: relative;
+  margin-left: 212px;
+  margin-top: -9px;
+}
+
+.other-animal-two {
+  position: relative;
+  margin-left: 212px;
+  margin-top: -10px;
+}
+
+.heart img {
+  position: relative;
+  margin-top: 25px;
+  margin-left: 78px;
+}
+
 .main-button button {
   border: none;
   outline: none;
@@ -241,11 +353,21 @@ body {
 .animal {
   display: inherit;
   position: absolute;
-  
+
   width: 1195px;
   height: 1046px;
   left: 165px;
-  top: 244px;
+  top: 322px;
+}
+
+.cat-card {
+  position: initial;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .card {
@@ -260,24 +382,153 @@ body {
   border-radius: 15px;
 }
 
-.card-img{
-    position: relative;
-    margin-left: 22px;
-    margin-top: 17px;
+.card-img {
+  position: relative;
+  margin-left: 22px;
+  margin-top: 17px;
 }
 
-.card-text{
-    position: relative;
-    margin-top: -8px;
-    margin-left: 6px;
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-text-align: center;
+.card-text {
+  position: relative;
+  margin-top: -8px;
+  margin-left: 6px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
 
-color: #000000
+  color: #000000;
 }
 
+.losted-found p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-left: 41px;
+  margin-top: -2px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 
+  color: #000000;
+}
+
+.card-second {
+  position: absolute;
+  width: 340px;
+  height: 295.39px;
+  margin-left: 430px;
+  margin-top: 39px;
+
+  background: rgba(137, 231, 179, 0.65);
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.card-img-second {
+  position: relative;
+  margin-left: 22px;
+  margin-top: 17px;
+}
+
+.card-third {
+  position: absolute;
+  width: 340px;
+  height: 295.39px;
+  margin-left: 817px;
+  margin-top: 36px;
+
+  background: rgba(137, 231, 179, 0.65);
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.card-img-third {
+  position: relative;
+  margin-left: 22px;
+  margin-top: 17px;
+}
+
+.dog {
+  position: initial;
+  margin-left: 818px;
+  margin-top: -13px;
+  width: 718px;
+  height: 938px;
+  background-image: url("/image/гемор1\ \(1\).png");
+}
+
+.second-button-content {
+  position: absolute;
+  width: 200px;
+  height: 170px;
+  left: 363px;
+  top: -50px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  box-shadow: 5px 3px 5px rgb(0 0 0 / 20%);
+  border-radius: 15px;
+}
+
+.second-button-content h1 {
+  position: relative;
+  margin-top: 3px;
+  margin-left: 49px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+
+  color: hsl(0, 0%, 0%);
+}
+
+.third-button-content{
+  position: absolute;
+  width: 200px;
+  height: 170px;
+  left: 658px;
+  top: -50px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  box-shadow: 5px 3px 5px rgb(0 0 0 / 20%);
+  border-radius: 15px;
+}
+
+.fourth-button-content{
+  position: absolute;
+  width: 200px;
+  height: 170px;
+  left: 1020px;
+  top: -50px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  box-shadow: 5px 3px 5px rgb(0 0 0 / 20%);
+  border-radius: 15px;
+}
+
+.hidden-third{
+  display: none;
+}
+
+.hidden-two {
+  display: none;
+}
+
+footer{
+  position: absolute;
+width: 1920px;
+height: 615px;
+left: 0px;
+top: 1581px;
+
+background: #000000;
+}
