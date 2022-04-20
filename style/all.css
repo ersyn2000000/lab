@@ -75,8 +75,7 @@ body {
   position: relative;
   overflow: hidden;
   width: 1920px;
-  height: 3000px;
-
+  height: 1932px;
   background: linear-gradient(
     72.44deg,
     rgba(255, 194, 37, 0.96) 0%,
@@ -357,14 +356,16 @@ body {
   width: 1195px;
   height: 1046px;
   left: 165px;
-  top: 322px;
+  top: 2px;
 }
 
 .cat-card {
-  position: initial;
+  width: 97%;
+  height: 32%;
+  position: relative;
   display: flex;
   justify-content: space-between;
-  top: 0;
+  top: 183px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -460,11 +461,10 @@ body {
 .dog {
   position: initial;
   margin-left: 818px;
-  margin-top: -13px;
+  margin-top: -166px;
   width: 931px;
   height: 895px;
-  background-image: url("/image/гемор1\ \(1\).png");
-}
+  background-image:url('../image/гемор1\ \(1\).png')}
 
 .second-button-content {
   position: absolute;
@@ -491,7 +491,7 @@ body {
   color: hsl(0, 0%, 0%);
 }
 
-.third-button-content{
+.third-button-content {
   position: absolute;
   width: 200px;
   height: 170px;
@@ -503,7 +503,7 @@ body {
   border-radius: 15px;
 }
 
-.fourth-button-content{
+.fourth-button-content {
   position: absolute;
   width: 200px;
   height: 170px;
@@ -515,7 +515,7 @@ body {
   border-radius: 15px;
 }
 
-.hidden-third{
+.hidden-third {
   display: none;
 }
 
@@ -523,12 +523,33 @@ body {
   display: none;
 }
 
-footer{
+footer {
   position: absolute;
-width: 1920px;
-height: 615px;
-left: 0px;
-top: 1581px;
+  width: 1920px;
+  height: 615px;
+  left: 0px;
+  top: 1581px;
 
-background: #000000;
+  background: #000000;
+}
+
+.found{
+  display: flex;
+  width: 100%;
+  
+}
+
+.found h1 {
+  position: absolute;
+  width: 136px;
+  height: 30px;
+  margin-left: 40px;
+  margin-top: 210px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #000000;
 }
